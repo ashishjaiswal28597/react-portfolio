@@ -1,0 +1,69 @@
+@import "../../../style-config/variable.scss";
+@import "../../../style-config/mixins.scss";
+
+.top-navigation-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    .app-logo{
+        width: 143px;
+        img{
+            width: 100%;
+            display: block;
+        }
+    }
+    .navigation{
+        display: flex;
+        align-items: center;
+        .navigation-item{
+            color: $white;
+            @include typography(18px, 400, 1);
+            margin-left: 20px;
+            padding: 5px;
+            box-shadow: inset 0 0 0 0 $white;
+            transition: color 0.3s ease-in-out , box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                box-shadow: inset 200px 0 0 0 $white;
+                color: $black;
+            }
+            @include small-screen{
+                display: block;
+                padding: 20px 0;
+            }
+        }
+        @include small-screen{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            background-color: $black-lighter;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    .call-to-action{
+        margin-left: 25px;
+    }
+    .toggle{
+        position: absolute;
+        top: 50px;
+        right: 25px;
+        background: #000;
+        color: $white;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        @include small-screen{
+            display: flex;
+        }
+
+    }
+}
