@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f79454d0.css",
-    "main.js": "/react-portfolio/static/js/main.e410283f.js",
+    "main.css": "/react-portfolio/static/css/main.9563d8dd.css",
+    "main.js": "/react-portfolio/static/js/main.c80cb9b6.js",
     "static/media/girl.png": "/react-portfolio/static/media/girl.9b9fd9571cd1be2fe067.png",
     "static/media/blog-thumb-2.jpg": "/react-portfolio/static/media/blog-thumb-2.6ea419b38772d0c6685f.jpg",
     "static/media/blog-thumb-1.jpg": "/react-portfolio/static/media/blog-thumb-1.d299b4913f9d814f738d.jpg",
@@ -18,11 +18,11 @@
     "static/media/thumb-2.jpg": "/react-portfolio/static/media/thumb-2.5a21a5409f6da3f2ef9e.jpg",
     "static/media/cloud-soft.png": "/react-portfolio/static/media/cloud-soft.4a7c46b961e63488802b.png",
     "index.html": "/react-portfolio/index.html",
-    "main.f79454d0.css.map": "/react-portfolio/static/css/main.f79454d0.css.map",
-    "main.e410283f.js.map": "/react-portfolio/static/js/main.e410283f.js.map"
+    "main.9563d8dd.css.map": "/react-portfolio/static/css/main.9563d8dd.css.map",
+    "main.c80cb9b6.js.map": "/react-portfolio/static/js/main.c80cb9b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f79454d0.css",
-    "static/js/main.e410283f.js"
+    "static/css/main.9563d8dd.css",
+    "static/js/main.c80cb9b6.js"
   ]
 }
